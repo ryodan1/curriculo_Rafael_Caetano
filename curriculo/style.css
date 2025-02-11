@@ -17,12 +17,12 @@ body {
 
 /* Estilo do header */
 header {
-    background-color: #4CAF50;
+    background-color: #31186b;
     color: white;
     padding: 30px;
     text-align: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    border-bottom: 5px solid #388E3C;
+    border-bottom: 5px solid #31186b;
 }
 
 header h1 {
@@ -49,8 +49,8 @@ section {
 /* Títulos das seções */
 h2 {
     font-size: 26px;
-    color: #4CAF50;
-    border-bottom: 3px solid #4CAF50;
+    color: #31186b;
+    border-bottom: 3px solid #31186b;
     padding-bottom: 12px;
     margin-bottom: 18px;
     text-transform: uppercase;
