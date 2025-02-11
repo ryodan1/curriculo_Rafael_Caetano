@@ -1,0 +1,101 @@
+/* Resetando alguns padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte padrão e o fundo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #388E3C;
+}
+
+header h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Estilo das seções */
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos das seções */
+h2 {
+    font-size: 26px;
+    color: #4CAF50;
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+/* Estilo da lista */
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li strong {
+    color: #388E3C;
+    font-weight: bold;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Transições e efeitos ao passar o mouse sobre links */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #388E3C;
+}
